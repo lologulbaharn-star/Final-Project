@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import api from '../services/api';
-import { useCartStore } from '../store/cartStore';
+import { useCartStore } from '../store/CartStore';
 
 const ProductDetails = () => {
   const { id } = useParams();
